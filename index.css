@@ -1,0 +1,652 @@
+*{
+
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 244, 219);
+    position: fixed;
+    width: 100%;
+    padding: 15px 10px;
+}
+.hero nav ul {
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+}
+.nav-top{
+    display: flex;
+    align-items: center;
+}
+.hero nav ul li{
+    list-style: none;
+    margin-right: 20px;
+   
+}
+.hero nav{
+    display: flex;
+}
+
+.hero nav ul a{
+    text-decoration: none;
+    color: rgb(8, 77, 8);
+
+}
+.hero nav ul li a:hover{
+    color: black;
+    padding: 6px 16px;
+    background-color: rgb(216, 223, 187);
+    border-radius: 100px;
+}
+.logo img{
+    width: 100px;
+    margin-left: 40px;
+}
+.wiith button {
+    background-color:#C2C837;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 7px;
+}
+.wiith a{
+    color: rgb(7, 45, 8);
+    text-decoration: none;
+}
+.nav-toogle{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+.menu-icon{
+    border: 2px;
+    border-color: black;
+    display: none;
+}
+.split{
+    display: flex;
+    padding-top: 200px;
+    background-image: url(hero-farmland.jpg);
+    justify-content: space-between;
+    color: white;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    inset: 0px;
+}
+.contxt{
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px 25px;
+    border-radius: 100px;
+    color: #D6E14C;
+    border: none;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.partn {
+    background-color:#C2C837 ;
+    padding: 12px 25px;
+    border-radius: 100px;
+    border: none;
+}
+.partn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+.partnership{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to left, rgba(3, 15, 0, 0), rgb(5, 26, 3));
+    margin-top: -129px;
+    padding-top: 130px;
+    padding-left: 70px;
+  
+}
+.partnership h3{
+    margin-bottom: 20px;
+}
+.partnership p{
+    margin-bottom: 30px;
+}
+.partn a:hover{
+    color: black;
+}
+.Explore{
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 12px 25px;
+    border-color: white;
+}
+.Explore a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.split h3{
+    font-size: 50px;
+}
+.slider img{
+    width: 500px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.hero-btn{
+    display: flex;
+    gap: 20px;
+}
+.About{
+    display: flex;
+    justify-self: center;
+    gap: 100px;
+    background-color:rgb(238, 239, 233);
+    width: 100%;
+    padding: 0px;
+}
+.box{
+    margin-left: 90px;
+}
+.allow{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.column{
+    background-color: rgb(216, 223, 187);
+    border-radius: 20px;
+    padding: 30px 40px 30px 20px;
+    margin: 10px;
+    background-color: white;
+}
+.About h3{
+    font-size: 70px;
+}
+.box{
+    padding: 70px 0px 0px 10px ;
+    color: rgb(117, 128, 62);
+    border-radius: 20px;
+}
+.box h3{
+    font-size: 30px;
+
+}
+.box span{
+    font-size: 25px;
+    display: none;
+}
+.learn{
+    display: flex;
+    gap: 200px;
+    background-color: rgb(216, 223, 187);
+    padding: 80px 0px 100px 50px;
+}
+.left h2{
+    font-size: 40px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.right img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 20px 10px 20px black;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+.exist{
+    background-color: rgb(239, 244, 219);
+    padding: 5px 20px;
+    border-radius: 100px;
+
+
+    color:black;
+    border: none;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.top{
+    margin-left: 30px;
+}
+.column{
+
+}
+.delivers{
+    background-color: rgb(239, 244, 219);
+    width: 100%;
+    height: 600px;
+
+}
+.inform{
+    background-color:#C2C837 ;
+    padding: 12px 25px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.top button{
+    background-color:rgb(216, 223, 187); 
+    border: none;
+    padding: 7px 20px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    margin: 30px 0px 20px 0px;
+}
+.top p{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.update{
+    margin-right: 20px;
+    border-radius: 30px;
+    height: 300px;
+    padding: 10px 20px 50px 30px;
+    background-color: rgb(239, 244, 219);
+}
+.updatee{
+    display: flex;
+    flex-grow: 20px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    justify-self: center;
+}
+.connect{
+    padding: 20px 0px 0px 40px;
+    background-color:rgb(216, 223, 187);
+}
+.connect p{
+    justify-self: center;
+    font-size: 18px;
+}
+.connect h3{
+    justify-self: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.Market{
+    justify-self: center;
+}
+.Market button{
+    background-color:rgb(239, 244, 219);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 100px;
+
+}
+.Market h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 750;
+}
+.built{
+    background-color:rgb(5, 25, 5) ;
+    padding-left: 60px;
+}
+.serve button{
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px 25px;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;   
+}
+.who{
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 8px 28px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    margin: 100px 0px 50px 0px;
+    color: #C2C837 ;
+}
+.our{
+    background-color:#C2C837;
+    padding: 12px 25px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.built h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.whom{
+    color: white;
+    padding-bottom: 100px;
+}
+.Build-on{
+    background-color: rgb(239, 244, 219);
+    padding-bottom: 100px;
+}
+.why button{
+    background-color: rgb(216, 223, 187);
+    border: none;
+    padding: 8px 28px ;
+    border-radius: 100px;
+    margin: 90px 0px 60px 50px;
+}
+.why h2{
+    font-size: 40px;
+    color: rgb(5, 25, 5);
+    margin-left: 30px;
+}
+.Ready {
+    background-color:rgb(7, 45, 8) ;
+    max-width: 95%;
+    text-align: center;
+    justify-self: center;
+    border-radius: 20px;
+    height: 350px;
+    align-items: center;
+}
+.Ready h2{
+    color: white;
+    margin-top: 80px;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+
+}
+.Ready p{
+    padding: 30px 50px 0px 50px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    color: rgba(229, 231, 229, 0.566);
+    margin-bottom: 20px;
+}
+.Ready button{
+    background-color: #C2C837; 
+    border: none;
+    padding: 8px 25px;
+    border-radius: 100px;
+    justify-content: center;
+    
+}
+.Ready button a{
+    color:rgb(7, 45, 8);
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    background-color:rgb(7, 45, 8) ;
+    padding:50px 0px 0px 0px;
+    justify-content: space-between;
+    
+
+}
+.contact p{
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.about img{
+    width: 150px;
+    margin-left: 40px;
+}
+.Navigate h3{
+    color: #C2C837;
+}
+.location h3{
+    color: #C2C837;
+}
+.meet img{
+    width: 30px;
+    padding: 10px;
+    border-radius: 360px;
+    background-color: #C2C837;
+}
+.socials img{
+    width: 30px;
+    padding: 10px;
+    background-color: #C2C837;
+    border-radius: 360px;
+    margin-top: 20px;
+}
+.make{
+    display: flex;
+    align-items: center;
+
+}
+.make img{
+    max-height: 25px;
+}
+.okay{
+    display: flex;
+    padding-bottom: 10px;
+}
+.Navigate nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: -30px;
+}
+.Navigate nav ul li a:hover{
+    color: #C2C837;
+}
+.Navigate h3{
+    margin-bottom: 20px;
+
+}
+.Navigate nav ul li {
+    list-style: none;
+}
+.okay p a{
+    color: white;
+    text-decoration: none;
+}
+.okay p a:hover{
+    color: #C2C837;
+
+}
+.touch{
+    justify-self: center;
+    justify-content: center;
+}
+@media screen and (max-width : 968px) {
+    .menu-icon{
+        display:flex;
+        font-size: 22px;
+    }
+    .hero nav{
+        display: none;
+    }
+    .logo{
+        margin-left: -20px;
+    }
+    .split{
+        padding-top:100px;
+        display: block;
+        
+    }
+    .hero{
+        position: fixed;
+    }
+    .partnership{
+        height: 500px;
+        
+    }
+    .slider{
+        gap: 0px;
+        padding: 20px 0px 20px 20px;
+    }
+    .slider img{
+        margin-left: 30px;
+    }
+    .partn{
+        padding: 7px 15px;
+    }
+    .Explore{
+        padding: 7px 15px;
+    }
+    .hero-btn{
+        margin-left: -30px;
+        gap: 3px;
+    }
+    .Explore a{
+        font-size: 13px;
+    }
+    .partnership h3{
+        font-size: 40px;
+    }
+    .wiith button{
+        padding: 5px 12px;
+    }
+    .learn{
+        display: contents;
+    }
+    .right {
+        margin: 50px 0px 70px 0px;
+    }
+    .contxt{
+        padding: 2px 15px;
+        font-size: 11px;
+        margin-left: -20px;
+    }
+    .About{
+        display: contents;
+        align-items: center;
+        background-color: rgb(239, 244, 219);
+    }
+    .box{
+        width: 150px;
+        background-color: rgb(238, 239, 233);
+        border-radius: 20px;
+        margin-bottom: 60px;
+        margin-top: 50px;
+        justify-self: center;
+    }
+    .box span{
+        display: contents;
+        background-color: #C2C837 ;
+        padding: 20px;
+        }
+        .contact{
+            display: block;
+            background-color: rgb(7, 45, 8);
+            padding: 100px 20px 20px 20px;
+        }
+        .about{
+            display: contents;
+         ;
+        }
+        .Navigate{
+            margin: 30px 0px 30px 40px;
+            font-size: 16px;
+            
+        }
+        .socials{
+            margin-top: 30px;
+        }
+        .location{
+            margin: 20px 0px 25px 45px;
+        }
+        .make{
+            margin: 0px 0px 20px 40px;
+        }
+        .okay{
+            margin: 0px 0px 20px 40px;
+        }
+        .top p{
+            font-size: 30px;
+            margin-left: 15px;
+        }
+        .right img{
+            width: 400px;
+            margin-left: 20px;
+        }
+        .learn h2{
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        .left p{
+            margin-left: 15px;
+        }
+        .top button{
+            margin-left: 10px;
+        }
+        .exist{
+            margin-left: 10px;
+        }
+        .inform{
+            margin-left: 10px;
+        }
+        .learn{
+            font-size: 14px;
+        }
+        .updatee{
+            display: contents;
+            height: 2000px;
+        }
+        .update{
+            width: 250px;
+            justify-items: center;
+            justify-self: center;
+            margin-top: 20px;
+        }
+        .delivers{
+            height: 2000px;
+        }
+        .box h2{
+            font-size: 13px;
+            color: #000;
+        }
+        .slider img{
+    width: 450px;
+    border-radius: 20px;
+}
+.column{
+    justify-content: center;
+    justify-self: center;
+    background-color: white;
+    padding: 40px  30px 35px 35px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    
+}
+.why h2{
+    padding-left: 30px;
+}
+.allow{
+    display: block;
+}
+.partnership{
+    width:70%;
+    height: 600px;
+    background: linear-gradient(to left, rgba(3, 15, 0, 0), rgb(5, 26, 3));
+    margin-top: -129px;
+    padding-top: 130px;
+    padding-left: 70px;
+  
+}
+.why h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.Market h2{
+    font-size: 30px;
+}
+.connect h3{
+    justify-self: center;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+}
