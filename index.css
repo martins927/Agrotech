@@ -621,8 +621,9 @@
             margin-left: 15px;
         }
         .right img{
-            width: 300px;
+            width: 290px;
             margin-left: 10px;
+            box-shadow: none;
         }
         .learn h2{
             font-size: 30px;
