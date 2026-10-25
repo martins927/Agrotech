@@ -542,7 +542,8 @@
         justify-self: center;
     }
     .slider img{
-        margin-left: 30px;
+        margin-left: 20px;
+        width: 100px;
     }
     .partn{
         padding: 7px 15px;
@@ -664,7 +665,7 @@
             color: #000;
         }
         .slider img{
-    width: 450px;
+    width: 330px;
     border-radius: 20px;
 }
 .column{
