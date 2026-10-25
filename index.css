@@ -10,6 +10,7 @@
     position: fixed;
     width: 100%;
     padding: 15px 10px;
+    box-shadow: #000 0px 1px;
 }
 .hero nav ul {
     display: flex;
@@ -61,9 +62,11 @@
     align-items: center;
 }
 .menu-icon{
-    border: 2px;
-    border-color: black;
     display: none;
+    padding: 2px;
+}
+.menu-icon:hover{
+    cursor: pointer;
 }
 .split{
     display: flex;
@@ -146,9 +149,6 @@
     width: 100%;
     padding: 0px;
 }
-.box{
-    margin-left: 90px;
-}
 .allow{
     display: flex;
     justify-content: space-between;
@@ -182,6 +182,9 @@
     gap: 200px;
     background-color: rgb(216, 223, 187);
     padding: 80px 0px 100px 50px;
+}
+.left{
+    margin-top:50px;
 }
 .left h2{
     font-size: 40px;
@@ -460,7 +463,57 @@
     justify-self: center;
     justify-content: center;
 }
-@media screen and (max-width : 968px) {
+.Hope{
+    background-color: rgb(8, 53, 8);
+    padding-top: 200px;
+}
+.Hope button{
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #C2C837;
+    margin: 20px;
+}
+.Hope h2{
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+}
+.Hope p{
+    color: white;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.otun{
+    margin: 20px;
+    margin-top: 50px;
+}
+.otun button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    border:none ;
+    background-color: rgba(216, 223, 187, 0.555);
+}
+.otun h2{
+    font-size: 45px;
+}
+.osi img{
+    width: 600px;
+    margin: 20px;
+    border-radius: 30px;
+    height: 500px;
+}
+.tired{
+    display: flex;
+    background-color: rgb(238, 239, 233);
+    padding-top: 70px;
+}
+.Pledge{
+    display: flex;
+}
+@media screen and (max-width : 768px) {
     .menu-icon{
         display:flex;
         font-size: 22px;
@@ -529,9 +582,10 @@
         width: 150px;
         background-color: rgb(238, 239, 233);
         border-radius: 20px;
-        margin-bottom: 60px;
-        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-top: 20px;
         justify-self: center;
+        padding: 20px 30px 20px 20px;
     }
     .box span{
         display: contents;
@@ -649,4 +703,24 @@
     font-size: 20px;
     padding: 30px;
 }
+.tired{
+    display: contents;
+}
+.osi img{
+    width: 500px;
+    flex-shrink: 200px;
+}
+.otun h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Pledge{
+    display: contents;
+}
+.{
+    width: 100px;
+    background-color: rgb(216, 223, 187);
+}
+
 }
