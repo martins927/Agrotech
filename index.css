@@ -541,7 +541,8 @@
         padding: 20px 0px 20px 20px;
     }
     .slider img{
-        margin-left: 30px;
+        margin-left: 20px;
+        width: 200px;
     }
     .partn{
         padding: 7px 15px;
