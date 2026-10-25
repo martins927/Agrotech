@@ -541,10 +541,6 @@
         padding: 0px 0px 30px 0px;
         justify-self: center;
     }
-    .slider img{
-        margin-left: 20px;
-        width: 100px;
-    }
     .partn{
         padding: 7px 15px;
     }
@@ -625,8 +621,8 @@
             margin-left: 15px;
         }
         .right img{
-            width: 400px;
-            margin-left: 20px;
+            width: 300px;
+            margin-left: 10px;
         }
         .learn h2{
             font-size: 30px;
@@ -667,6 +663,7 @@
         .slider img{
     width: 330px;
     border-radius: 20px;
+    justify-self: center;
 }
 .column{
     justify-content: center;
