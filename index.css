@@ -8,7 +8,7 @@
     justify-content: space-between;
     background-color: rgb(239, 244, 219);
     position: fixed;
-    width: 93%;
+    width: 100%;
     padding: 15px 10px;
     box-shadow: #000 0px 1px;
 }
@@ -668,6 +668,7 @@
     width: 330px;
     border-radius: 20px;
     justify-self: center;
+    margin-right: 0px;
 }
 .column{
     justify-content: center;
