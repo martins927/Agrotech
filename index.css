@@ -514,6 +514,9 @@
     display: flex;
 }
 @media screen and (max-width : 768px) {
+    *{
+        max-width: 500px;
+    }
     .menu-icon{
         display:flex;
         font-size: 22px;
