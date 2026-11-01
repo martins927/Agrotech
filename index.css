@@ -106,7 +106,7 @@
     background: linear-gradient(to left, rgba(3, 15, 0, 0), rgb(5, 26, 3));
     margin-top: -129px;
     padding-top: 130px;
-    padding-left: 70px;
+    padding-left: 0px;
   
 }
 .partnership h3{
@@ -232,9 +232,6 @@
 }
 .top{
     margin-left: 30px;
-}
-.column{
-
 }
 .delivers{
     background-color: rgb(239, 244, 219);
@@ -663,12 +660,6 @@
 
 
 @media screen and (max-width : 767px) {
-    .show{
-        background-color: #000;
-        width: 100px;
-        height: 200px;
-        color: white;
-    }
     .identity{
         display: block;
     }
@@ -705,10 +696,6 @@
     .hero{
         position: fixed;
     }
-    .partnership{
-        height: 500px;
-        
-    }
     .slider{
         gap: 0px;
         padding: 0px 0px 30px 0px;
@@ -719,7 +706,8 @@
         margin-left: 10px;
     }
     .partn{
-        padding: 7px 15px;
+        padding: 0px 15px;
+        margin-left: 25px;
     }
     .Explore{
         padding: 7px 15px;
@@ -867,11 +855,10 @@
 }
 .partnership{
     width:70%;
-    height: 600px;
     background: linear-gradient(to left, rgba(3, 15, 0, 0), rgb(5, 26, 3));
     margin-top: -129px;
     padding-top: 130px;
-    padding-left: 70px;
+    padding-left: 10px;
   
 }
 .why h2{
@@ -940,6 +927,9 @@
 }
   .hamburger { 
     display: block;
+ }
+ .partnership{
+    height: 800px;
  }
 
 
