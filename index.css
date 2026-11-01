@@ -706,8 +706,8 @@
         margin-left: 10px;
     }
     .partn{
-        padding: 0px 15px;
-        margin-left: 25px;
+        padding: 7px 15px;
+        margin-bottom: 10px;
     }
     .Explore{
         padding: 7px 15px;
@@ -825,6 +825,9 @@
         .box h2{
             font-size: 13px;
             color: #000;
+        }
+        .hero-btn{
+            display: contents;
         }
         .slider img{
     width: 70%;
