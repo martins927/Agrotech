@@ -944,3 +944,15 @@
 
 
 }
+/* === MOBILE ALIGNMENT FIX === */
+
+/* 1. Stop horizontal scroll - this is the main cause */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
