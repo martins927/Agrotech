@@ -561,7 +561,10 @@
 }
 .Ready .tech{
     color: white;
-    margin: 50px 0px 60px 0px;
+    margin: 50px 0px 0px 0px;
+}
+.bloody{
+    margin-bottom: 50px;
 }
 .array{
     display: flex;
@@ -850,8 +853,14 @@
     margin-bottom: 20px;
     
 }
+.touch{
+    margin: 30px;
+}
 .why h2{
     padding-left: 30px;
+}
+.Ready{
+    height: 470px;
 }
 .allow{
     display: block;
