@@ -11,20 +11,20 @@
         <div class="hero">
         <div class="logo"><img src="matek-logo - Copy.png" alt=""></div>
         <div class="nav-top">
-            <nav class="list">
-            <ul>
+            <!--NAVBAR START-->
+            <nav class="navbar" id="navbar">
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="About.html">About us</a></li>
                 <li><a href="Sevice.html">Services</a></li>
                 <li><a href="Contact.html">Contact</a></li>
+                 <li><button class="cta-mobile"><a href="">Partner With Us</a></button></li>
             </ul>
+            <button class="cta-desktop"><a href="">Partner With Us</a></button>
+        <div class="hamburger" id="hamburger">&#9776</div>
+        <div class="close-btn" id="closeBtn">&times;</div>
         </nav>
-        <div class="nav-toogle">
-                <div class="wiith"><button><a href="">Partner With Us</a></button></div>
-        <div class="menu-icon" id="open-btn">&#9776</div>
-        <div class="close-btn" id="close-Btn">&times;</div>
-        </div>
-       
+        <!--NAVBAR END-->
        </div>
     </div>
 </header>
@@ -251,28 +251,8 @@
     <footer>
 
     </footer>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-         let openBtn = document.getElementById("menu-icon");
-         let closeBtn = document.querySelector('.close-Btn');
-         let sidebar = document.getElementById('sidebar');
-         let mainContent = document.getElementById('main-content');
-
-
-         openBtn.addEventListener ('click', () => {
-            sidebar.style.width = '250px';
-            mainContent.style.marginLeft = '250px';
-         } );
-
-         closeBtn.addEventListener ('click', () => {
-            sidebar.style.width = '0';
-            mainContent.style.marginLeft = '0';
-         } );
-
-
-    });
-
-    </script>
+    <!--JAVA SCRIPT-->
+     <script src="script.js"></script>
 </body>
 </body>
 </html>
